@@ -1,0 +1,76 @@
+/* Estilos para forzar siempre el modo oscuro */
+body {
+    background-color: #15151b;
+    color: #fcfcfc;
+}
+
+.navbar {
+    background-color: #19191b83;
+}
+
+a {
+    color: #fcfcfc;
+}
+
+h4 {
+    padding: 2%;
+}
+.search-bar{
+    opacity: 0.8;
+}
+.carousel-item {
+    height: 30%;
+}
+
+#textCarousel {
+    padding: 5%;
+    height: 100px;
+    color:#fcfcfc;
+}
+
+.carousel-inner img {
+    width: 100%;
+    height: 550px;
+    object-fit: fil;
+}
+
+.info-table , #games {
+    padding-top: 10%;
+}
+
+.info-table ul {
+    border: 1px solid #ccc;
+}
+
+.info-table li {
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+}
+
+.table {
+    color:#fcfcfc;
+}
+.blockquote-footer{
+    color:#fcfcfc;  
+}
+.fixed-size-img {
+    width: 600px;
+    height: 300px;
+    object-fit: cover;
+}
+
+#info-txt h2{
+    padding-top: 3%;
+}
+
+.card-body{
+color:rgb(224, 224, 224);
+background-color: #302f2f;
+}
+/* Estilo para el input de búsqueda en lg */
+@media (min-width: 992px) {
+    .search-bar {
+        width: 300px;
+        /* Ancho de la barra de búsqueda */
+    }
+}

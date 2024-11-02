@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Drakengard - NieR</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark sticky-top">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="index.html">Drakengard - NieR</a>
+
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav mr-auto">
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="article.html">Música</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#info-add">Información</a>
+                    </li>
+                </ul>
+                <!-- Barra de búsqueda para tamaño LG -->
+                <div class="d-none d-lg-block">
+                    <input type="text" class="form-control search-bar" placeholder="Buscar...">
+                </div>
+                <!-- Sección de más opciones (hamburguesa) -->
+                <div class="dropdown d-lg-none">
+                    <a class="nav-link" id="dropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true"
+                        aria-expanded="false">
+                        Opciones
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                        <a class="dropdown-item" href="#info-add">Información General</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="#">Juegos</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="#info-characters">Personajes</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="#">Novedades</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container">
+        <main role="main" class="mt-4 text-center">
+            <h1 class="display-1">Drakengard - NieR</h1>
+            <p class="lead">Bienvenido al mundo de Drakengard y NieR.<br> Explora sobre la historia de estas dos grandes
+                sagas unidas por un mismo destino.</p>
+
+            <!--- Carrusel de Texto -->
+            <div id="textCarousel" class="carousel slide" data-ride="carousel" data-interval="2000">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <div class="d-block w-100 text-center">
+                            <p class="blockquote-footer">
+                                As the tears of a goddess flow, four lost temples forebode the coming of the queen<br>
+                                The dragon plummets from the tower of red thunder, and where it falls no one has seen.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="d-block w-100 text-center">
+                            <p class="blockquote-footer">If peace comes at the cost of other lives, then it's no peace
+                                at all</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="d-block w-100 text-center">
+                            <p class="blockquote-footer">In this world, death is the only true salvation.</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="d-block w-100 text-center">
+                            <p class="blockquote-footer">If my daughter is not human, then I am a monster.</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="d-block w-100 text-center">
+                            <p class="blockquote-footer">Everything that lives is designed to end.
+                                We are perpetually trapped in a never-ending spiral of life and death.<br>
+                                Is this a curse? Or some kind of punishment?</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="d-block w-100 text-center">
+                            <p class="blockquote-footer">Our purpose is to help others find their way, even if we
+                                ourselves are lost.</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="d-block w-100 text-center">
+                            <p class="blockquote-footer">
+                                Our journey may have been meaningless.Our past may have been a mistake.<br>
+                                But we're not going back.Even if this world comes to an end.<br>
+                                Because this . . . This is the world with the people we cherish.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <a class="carousel-control-prev" href="#textCarousel" role="button" data-slide="prev">
+                    <span aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#textCarousel" role="button" data-slide="next">
+                    <span aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                </a>
+            </div>
+
+            <!-- Carrusel de imagenes -->
+            <div id="carouselExample" class="carousel slide mt-5" data-ride="carousel" data-interval="2000">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="img/drakengard_1.webp" class="d-block w-100" alt="Drakengard 1">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="img/drakengard_2.webp" class="d-block w-100" alt="Drakengard 2">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="img/drakengard_3.png" class="d-block w-100" alt="Drakengard 3">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="img/nier_gestalt.jpg" class="d-block w-100" alt="NieR Gestalt">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="img/nier_automata.jpg" class="d-block w-100" alt="NieR Automata">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="img/nier-reincarnation.webp" class="d-block w-100" alt="NieR Reincarnation ">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="img/nier_replicant.png" class="d-block w-100" alt="NieR Replicant">
+                    </div>
+                </div>
+                <a class="carousel-control-prev" href="#carouselExample" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#carouselExample" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                </a>
+            </div>
+            <div id="info-txt">
+                <h2 class="mt-4" id="info-add">La Saga de Drakengard y NieR</h2>
+                <h4>Un Viaje a Través de la Oscuridad</h4>
+                <p class="d-flex justify-content-center">Desde sus inicios en Drakengard, la serie ha cautivado a los
+                    jugadores con su narrativa
+                    profunda y personajes complejos.
+                    Todos tienen algo que los une, a pesar de cada uno contarte su historia.<br>
+                    La historia más compleja comienza con Caim, un guerrero que se enfrenta a dilemas morales
+                    tras hacer un pacto con un dragón.
+                    A medida que la historia avanza, las decisiones tomadas por Caim generan consecuencias que
+                    resuenan en el mundo de NieR,
+                    donde el protagonista Nier lucha por salvar a su hija en un mundo devastado por la guerra y
+                    la desesperación. Esto sucede en el caso de NieR Gestalt,
+                    ya que en NieR Replicant el protagonista cambia a ser su hermano. <br>
+                    Y todo culmina en NieR Automata, donde la humanidad ya es solamente un recuerdo,
+                    invitándonos a ver cómo máquinas anhelaban ser como humanos.<br>
+                    La conexión entre ambas sagas es un testimonio del impacto de las decisiones que realizan
+                    los personajes y de cómo pueden alterar el destino de
+                    otros y diferentes mundos. Con temas que exploran la moralidad, la vida y la muerte, NieR y
+                    Drakengard invitan a los jugadores a reflexionar
+                    sobre la naturaleza de la humanidad en medio de la tragedia.</p>
+            </div>
+        </main>
+        <section id="games-link">
+            <div id="games" class="container mt-4">
+                <div class="row">
+                    <div class="col-lg-3 d-none d-lg-block">
+                        <div class="info-table">
+                            <ul class="list-unstyled">
+                                <li><a href="#info-add" class="nav-link">Información General</a></li>
+                                <li><a href="#games-link" class="nav-link">Juegos</a></li>
+                                <li><a href="#info-characters" class="nav-link">Personajes</a></li>
+                                <li><a href="#news-saga" class="nav-link">Novedades</a></li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="col-md-5 col-lg-3 mb-4">
+                        <h3>Drakengard 1</h3>
+                        <h6>Año de lanzamiento: 2003</h6>
+                        <p>Drakengard es un juego de rol de acción desarrollado por Cavia y publicado por Square Enix.
+                            La historia sigue a Caim, un guerrero que forja un pacto con un dragón para luchar contra
+                            fuerzas demoníacas. Su narrativa oscura y compleja incluye finales múltiples que exploran
+                            temas como la guerra, la locura y el sacrificio.</p>
+                        <p><strong>Jugabilidad:</strong> <br>Mezcla combates aéreos con el dragón y combates en tierra.
+                            Es conocido por su enfoque en la brutalidad y la toma de decisiones morales.</p>
+                    </div>
+
+                    <div class="col-md-5 col-lg-3 mb-4">
+                        <h3>NieR Replicant</h3>
+                        <h6>Año de lanzamiento: 2021</h6>
+                        <p>NieR Replicant es una versión remasterizada del juego original de 2010, que se centra en un
+                            joven que busca salvar a su hermana Yona de una enfermedad mortal. La historia está llena de
+                            giros emocionales y presenta personajes complejos que hacen que el jugador cuestione el
+                            sentido de la vida y la moralidad.</p>
+                        <p><strong>Jugabilidad:</strong><br> Combina elementos de acción y rol, con un enfoque en la
+                            narrativa y exploración. Incluye diferentes estilos de combate y misiones secundarias que
+                            enriquecen la experiencia.</p>
+                    </div>
+
+                    <div class="col-md-5 col-lg-3 mb-4">
+                        <h3>NieR Automata</h3>
+                        <h6>Año de lanzamiento: 2017</h6>
+                        <p>NieR Automata se desarrolla en un futuro distópico donde los humanos han sido exterminados por las
+                            máquinas. El jugador controla a los androides 2B, 9S y A2 en batallas constantes por
+                            supervivencia. Este juego es aclamado por su narrativa profunda y filosófica, que aborda
+                            temas como la existencia, el libre albedrío y la naturaleza de la humanidad.</p>
+                        <p><strong>Jugabilidad:</strong><br>Presenta un estilo de combate fluido que combina
+                            la acción en tiempo real con elementos de RPG, además de diversas mecánicas de juego que
+                            cambian durante la experiencia y múltiples finales.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="container mt-5">
+                <h3 class="mt-4" id="info-characters">Personajes</h3>
+                <div class="row">
+                    <div class="col-md-12">
+                        <table class="table table-striped mx-auto center-table">
+                            <thead>
+                                <tr>
+                                    <th>Nombre</th>
+                                    <th>Descripción</th>
+                                    <th>Imagen</th> <!-- Agregamos una columna para las imágenes -->
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>Caim</td>
+                                    <td>Protagonista guerrero de Drakengard 1 que forma un pacto con un dragón.</td>
+                                    <td><img src="img/caim.jpg" alt="Caim" class="img-fluid fixed-size-img"></td>
+                                    <td>
+                                </tr>
+                                <tr>
+                                    <td>Zero</td>
+                                    <td>Protagonista de Drakengard 3 que busca eliminar a sus hermanas.</td>
+                                    <td><img src="img/zero.webp" alt="Zero" class="img-fluid fixed-size-img"></td>
+                                </tr>
+                                <tr>
+                                    <td>NieR</td>
+                                    <td>Protagonista de NieR Gestalt, lucha por salvar a su hija Yonah.</td>
+                                    <td><img src="img/nier_dad.jpg" alt="NieR Padre" class="img-fluid fixed-size-img">
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>NieR</td>
+                                    <td>Protagonista de NieR Replicant, lucha por salvar a su hermana Yonah.</td>
+                                    <td><img src="img/nier.jpg" alt="Nier" class="img-fluid fixed-size-img"></td>
+                                </tr>
+                                <tr>
+                                    <td>2B</td>
+                                    <td>Protagonista de NieR: Automata. Ella es un androide de batalla, tipo ataque,
+                                        número 2.
+                                    </td>
+                                    <td><img src="img/2b.jpg" alt="2B" class="img-fluid fixed-size-img"></td>
+                                </tr>
+                                <tr>
+                                    <td>9S</td>
+                                    <td>Protagonista de NieR: Automata. Es un androide de soporte, tipo escáner, número
+                                        9.</td>
+                                    <td><img src="img/9s.jpg" alt="9S" class="img-fluid fixed-size-img"></td>
+                                </tr>
+                                <tr>
+                                    <td>A2</td>
+                                    <td>Es una androide renegada de NieR: Automata. Es una androide de batalla,
+                                        antecesora de
+                                        2B, tipo asalto, número 2.</td>
+                                    <td><img src="img/a2.jpg" alt="A2" class="img-fluid fixed-size-img"></td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <div class="container mt-5">
+            <h2 id="news-saga">Novedades de la Saga</h2>
+            <div class="container mt-5">
+                <div class="row">
+                    <div class="col-md-6 mb-4">
+                        <div class="card">
+                            <div class="card-body">
+                                <h5 class="card-title">Adaptación de NieR: Automata al anime</h5>
+                                <p class="card-text">
+                                    Recientemente se lanzó un anime titulado <strong>NieR:Automata Ver1.1a</strong>, que
+                                    adapta la historia del juego. La serie ha sido bien recibida por su animación y su
+                                    interpretación de personajes.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 mb-4">
+                        <div class="card">
+                            <div class="card-body">
+                                <h5 class="card-title">Nueva música y conciertos</h5>
+                                <p class="card-text">
+                                    Se continúan lanzando álbumes especiales y se han realizado conciertos en vivo con
+                                    orquesta en varias ciudades. También se pueden encontrar grabaciones en CD y en
+                                    streaming.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 mb-4">
+                        <div class="card">
+                            <div class="card-body">
+                                <h5 class="card-title">Merchandising y colaboraciones</h5>
+                                <p class="card-text">
+                                    La popularidad de NieR ha llevado a colaboraciones con otras franquicias, además de
+                                    figuras coleccionables, libros de arte y mangas que expanden la historia.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 mb-4">
+                        <div class="card">
+                            <div class="card-body">
+                                <h5 class="card-title">Ampliación de la historia</h5>
+                                <p class="card-text">
+                                    Se han publicado novelas y guías que exploran la historia y el universo
+                                    NieR-Drakengard. Los libros ofrecen más contexto sobre los personajes y el mundo.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 mb-4">
+                        <div class="card">
+                            <div class="card-body">
+                                <h5 class="card-title">Rumores sobre futuros proyectos</h5>
+                                <p class="card-text">
+                                    Hay rumores sobre posibles remakes de otros títulos de Drakengard o un nuevo juego
+                                    en la franquicia de NieR, basados en comentarios de Yoko Taro.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <footer class="text-center mt-5">
+            <div class="container">
+                <p>&copy; 2024 Drakengard - NieR. Todos los derechos reservados.</p>
+            </div>
+        </footer>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="/js/script.js"></script>
+</body>
+
+</html>
